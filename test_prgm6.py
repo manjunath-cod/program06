@@ -1,6 +1,8 @@
-from employee import employee_details
+from prgm6 import employee_details
 
 def test_employee_details():
-    result = employee_details("Rahul", "101", "IT", "30000")
-    expected = "Name: Rahul\nEmployee ID: 101\nDepartment: IT\nSalary: 30000"
+    result = employee_details("Rahul", "EMP101", "IT", "50000")
+    
+    expected = "Name: Rahul\nEmployee ID: EMP101\nDepartment: IT\nSalary: 50000"
+
     assert result == expected
